@@ -4,14 +4,19 @@
            <link rel="stylesheet" href="style.css">
     </head>
         <body>
-   <button id="myFirstButton">click</button>
-      <div id="container"></div>
-      <template id="MyTemplate">
+   <button id="btnAddFolder">add Folder</button>
+   <div id="divBreadCrumb">
+        <a class="path">Root</a>
+   </div> 
+   <div id="divContainer"></div>
+      <template id="pageTemplate">
         <div class="folder">
                <span action="delete">delete</span>
                     <span action="edit">edit</span>
+                    <span action="view">view</span>
                          <div purpose="name"></div>
         </div>
+        <a class="path"></a>
       </template>
       <script src="main.js"></script>
            </body>

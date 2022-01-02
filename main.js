@@ -1,8 +1,9 @@
 
 (function(){
-    let btnAddFolder = document.querySelector("#myFirstButton");
-    let divContainer = document.querySelector("#container");
-    let pageTemplates = document.querySelector("#MyTemplate");
+    let btnAddFolder = document.querySelector("#btnAddFolder");
+    let divContainer = document.querySelector("#divContainer");
+    let pageTemplates = document.querySelector("#pageTemplate");
+    let divBreadCrumb=document.querySelector("#divBreadCrumb");
     let fid = 0;
     let folders = [];
 
